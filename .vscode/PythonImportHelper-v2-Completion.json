@@ -1,0 +1,462 @@
+[
+    {
+        "label": "reflex",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "reflex",
+        "description": "reflex",
+        "detail": "reflex",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_HEIGHT",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "EmSize",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_HEIGHT",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "EmSize",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_WIDTH",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "EmSize",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "icon_button",
+        "importPath": "portafolio_personal.components.icon_button",
+        "description": "portafolio_personal.components.icon_button",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.icon_button",
+        "documentation": {}
+    },
+    {
+        "label": "icon_button",
+        "importPath": "portafolio_personal.components.icon_button",
+        "description": "portafolio_personal.components.icon_button",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.icon_button",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "heading",
+        "importPath": "portafolio_personal.components.heading",
+        "description": "portafolio_personal.components.heading",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.heading",
+        "documentation": {}
+    },
+    {
+        "label": "heading",
+        "importPath": "portafolio_personal.components.heading",
+        "description": "portafolio_personal.components.heading",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.heading",
+        "documentation": {}
+    },
+    {
+        "label": "heading",
+        "importPath": "portafolio_personal.components.heading",
+        "description": "portafolio_personal.components.heading",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.heading",
+        "documentation": {}
+    },
+    {
+        "label": "heading",
+        "importPath": "portafolio_personal.components.heading",
+        "description": "portafolio_personal.components.heading",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.heading",
+        "documentation": {}
+    },
+    {
+        "label": "heading",
+        "importPath": "portafolio_personal.components.heading",
+        "description": "portafolio_personal.components.heading",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.heading",
+        "documentation": {}
+    },
+    {
+        "label": "card_detail",
+        "importPath": "portafolio_personal.components.card_detail",
+        "description": "portafolio_personal.components.card_detail",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.card_detail",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "importPath": "portafolio_personal.components.media",
+        "description": "portafolio_personal.components.media",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.media",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "importPath": "portafolio_personal.components.media",
+        "description": "portafolio_personal.components.media",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.media",
+        "documentation": {}
+    },
+    {
+        "label": "info_detail",
+        "importPath": "portafolio_personal.views.info_detail",
+        "description": "portafolio_personal.views.info_detail",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.info_detail",
+        "documentation": {}
+    },
+    {
+        "label": "icon_badge",
+        "importPath": "portafolio_personal.components.icon_badge",
+        "description": "portafolio_personal.components.icon_badge",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.components.icon_badge",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "importPath": "portafolio_personal.views.about",
+        "description": "portafolio_personal.views.about",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.about",
+        "documentation": {}
+    },
+    {
+        "label": "extra",
+        "importPath": "portafolio_personal.views.extra",
+        "description": "portafolio_personal.views.extra",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.extra",
+        "documentation": {}
+    },
+    {
+        "label": "footer",
+        "importPath": "portafolio_personal.views.footer",
+        "description": "portafolio_personal.views.footer",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.footer",
+        "documentation": {}
+    },
+    {
+        "label": "header",
+        "importPath": "portafolio_personal.views.header",
+        "description": "portafolio_personal.views.header",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.header",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "importPath": "portafolio_personal.views.info",
+        "description": "portafolio_personal.views.info",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.info",
+        "documentation": {}
+    },
+    {
+        "label": "tech_stack",
+        "importPath": "portafolio_personal.views.tech_stack",
+        "description": "portafolio_personal.views.tech_stack",
+        "isExtraImport": true,
+        "detail": "portafolio_personal.views.tech_stack",
+        "documentation": {}
+    },
+    {
+        "label": "card_detail",
+        "kind": 2,
+        "importPath": "portafolio_personal.components.card_detail",
+        "description": "portafolio_personal.components.card_detail",
+        "peekOfCode": "def card_detail() -> rx.Component:\n    return rx.card(\n        rx.inset(\n            rx.image(\n                src=\"/favicon.ico\",\n                height=IMAGE_HEIGHT,\n                width=\"100%\"\n            ),\n            pb=Size.DEFAULT.value\n        ),",
+        "detail": "portafolio_personal.components.card_detail",
+        "documentation": {}
+    },
+    {
+        "label": "heading",
+        "kind": 2,
+        "importPath": "portafolio_personal.components.heading",
+        "description": "portafolio_personal.components.heading",
+        "peekOfCode": "def heading(text: str, h1=False) -> rx.Component:\n    return rx.heading(\n        text,\n        as_=\"h1\" if h1 else \"h2\",\n        size=Size.LARGE.value if h1 else Size.MEDIUM.value\n    )",
+        "detail": "portafolio_personal.components.heading",
+        "documentation": {}
+    },
+    {
+        "label": "icon_badge",
+        "kind": 2,
+        "importPath": "portafolio_personal.components.icon_badge",
+        "description": "portafolio_personal.components.icon_badge",
+        "peekOfCode": "def icon_badge(icon: str) -> rx.Component:\n    return rx.badge(\n        rx.icon(\n            icon,\n            size=32\n        ),\n        aspect_ratio=\"1\",\n        variant=\"soft\"\n    )",
+        "detail": "portafolio_personal.components.icon_badge",
+        "documentation": {}
+    },
+    {
+        "label": "icon_button",
+        "kind": 2,
+        "importPath": "portafolio_personal.components.icon_button",
+        "description": "portafolio_personal.components.icon_button",
+        "peekOfCode": "def icon_button(icon: str, url: str, text=\"\", solid=False) -> rx.Component:\n    return rx.link(\n        rx.button(\n            rx.icon(icon),\n            text,\n            variant=\"solid\" if solid else \"surface\",\n        ),\n        href=url,\n        is_external=True,\n    )",
+        "detail": "portafolio_personal.components.icon_button",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 2,
+        "importPath": "portafolio_personal.components.media",
+        "description": "portafolio_personal.components.media",
+        "peekOfCode": "def media() -> rx.Component:\n    return rx.hstack(\n        icon_button(\n            \"mail\",\n            \"mailto:raulfdeztdo@gmail.com\",\n            \"raulfdeztdo@gmail.com\",\n            True\n        ),\n        icon_button(\n            \"file-text\",",
+        "detail": "portafolio_personal.components.media",
+        "documentation": {}
+    },
+    {
+        "label": "Size",
+        "kind": 6,
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "peekOfCode": "class Size(Enum):\n    ZERO = \"0\" # 0px\n    SMALL = \"2\" # 8px / 0.5em\n    DEFAULT = \"4\" # 16px / 1em\n    MEDIUM = \"6\" # 32px / 2em\n    LARGE = \"8\" # 48px\nclass EmSize(Enum):\n    DEFAULT = \"1em\" # 16px\n    MEDIUM = \"2em\" # 32px\n    LARGE = \"4em\" # 64px",
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "EmSize",
+        "kind": 6,
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "peekOfCode": "class EmSize(Enum):\n    DEFAULT = \"1em\" # 16px\n    MEDIUM = \"2em\" # 32px\n    LARGE = \"4em\" # 64px",
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_WIDTH",
+        "kind": 5,
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "peekOfCode": "MAX_WIDTH = \"900px\"\nIMAGE_HEIGHT = \"200px\"\nclass Size(Enum):\n    ZERO = \"0\" # 0px\n    SMALL = \"2\" # 8px / 0.5em\n    DEFAULT = \"4\" # 16px / 1em\n    MEDIUM = \"6\" # 32px / 2em\n    LARGE = \"8\" # 48px\nclass EmSize(Enum):\n    DEFAULT = \"1em\" # 16px",
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_HEIGHT",
+        "kind": 5,
+        "importPath": "portafolio_personal.styles.styles",
+        "description": "portafolio_personal.styles.styles",
+        "peekOfCode": "IMAGE_HEIGHT = \"200px\"\nclass Size(Enum):\n    ZERO = \"0\" # 0px\n    SMALL = \"2\" # 8px / 0.5em\n    DEFAULT = \"4\" # 16px / 1em\n    MEDIUM = \"6\" # 32px / 2em\n    LARGE = \"8\" # 48px\nclass EmSize(Enum):\n    DEFAULT = \"1em\" # 16px\n    MEDIUM = \"2em\" # 32px",
+        "detail": "portafolio_personal.styles.styles",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.about",
+        "description": "portafolio_personal.views.about",
+        "peekOfCode": "def about() -> rx.Component:\n    return rx.vstack(\n        heading(\"Sobre mí\"),\n        rx.text(\"Descripción de mi vida y mi carrera profesional.\")\n    )",
+        "detail": "portafolio_personal.views.about",
+        "documentation": {}
+    },
+    {
+        "label": "extra",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.extra",
+        "description": "portafolio_personal.views.extra",
+        "peekOfCode": "def extra() -> rx.Component:\n    return rx.vstack(\n        heading(\"Extra\"),\n        rx.hstack(\n            *[\n                card_detail()\n                for _ in range(0, 3)\n            ],\n            spacing=Size.DEFAULT.value,\n            width=\"100%\",",
+        "detail": "portafolio_personal.views.extra",
+        "documentation": {}
+    },
+    {
+        "label": "footer",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.footer",
+        "description": "portafolio_personal.views.footer",
+        "peekOfCode": "def footer() -> rx.Component:\n    return rx.vstack(\n        rx.text(\"Raúl Fernández Tirado © 2024\"),\n        media(),\n        spacing=Size.DEFAULT.value\n    )",
+        "detail": "portafolio_personal.views.footer",
+        "documentation": {}
+    },
+    {
+        "label": "header",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.header",
+        "description": "portafolio_personal.views.header",
+        "peekOfCode": "def header() -> rx.Component:\n    return rx.hstack(\n        rx.avatar(size=Size.LARGE.value),\n        rx.vstack(\n            heading(\"Nombre Apellido\", True),\n            heading(\"Desarrollador de Software\"),\n            rx.text(\n                rx.icon(\"map-pin\"),\n                \"Localización\",\n                display=\"inherit\",",
+        "detail": "portafolio_personal.views.header",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.info",
+        "description": "portafolio_personal.views.info",
+        "peekOfCode": "def info(title: str) -> rx.Component:\n    return rx.vstack(\n        heading(title),\n        info_detail(),\n        spacing=Size.DEFAULT.value,\n        width=\"100%\",\n    )",
+        "detail": "portafolio_personal.views.info",
+        "documentation": {}
+    },
+    {
+        "label": "info_detail",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.info_detail",
+        "description": "portafolio_personal.views.info_detail",
+        "peekOfCode": "def info_detail() -> rx.Component:\n    return rx.hstack(\n        icon_badge(\"box-select\"),\n        rx.vstack(\n            rx.text.strong(\"Titulo\"),\n            rx.text(\"Subtitulo\"),\n            rx.text(\n                \"Descripción\",\n                size=Size.SMALL.value,\n                color_scheme=\"gray\"",
+        "detail": "portafolio_personal.views.info_detail",
+        "documentation": {}
+    },
+    {
+        "label": "tech_stack",
+        "kind": 2,
+        "importPath": "portafolio_personal.views.tech_stack",
+        "description": "portafolio_personal.views.tech_stack",
+        "peekOfCode": "def tech_stack() -> rx.Component:\n    return rx.vstack(\n        heading(\"Tecnologías\"),\n        rx.flex(\n            *[\n                rx.badge(\n                    rx.icon(\"code\"),\n                    rx.text(f\"Stack{index}\"),\n                    size=\"2\"\n                )",
+        "detail": "portafolio_personal.views.tech_stack",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "portafolio_personal.portafolio_personal",
+        "description": "portafolio_personal.portafolio_personal",
+        "peekOfCode": "def index() -> rx.Component:\n    return rx.center(\n        # rx.theme_panel(),\n        rx.vstack(\n            header(),\n            about(),\n            rx.divider(),\n            tech_stack(),\n            info(\"Experiencia\"),\n            info(\"Proyectos\"),",
+        "detail": "portafolio_personal.portafolio_personal",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "portafolio_personal.portafolio_personal",
+        "description": "portafolio_personal.portafolio_personal",
+        "peekOfCode": "app = rx.App()\napp.add_page(index)",
+        "detail": "portafolio_personal.portafolio_personal",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "rxconfig",
+        "description": "rxconfig",
+        "peekOfCode": "config = rx.Config(\n    app_name=\"portafolio_personal\",\n)",
+        "detail": "rxconfig",
+        "documentation": {}
+    }
+]
