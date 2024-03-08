@@ -1,4 +1,5 @@
 from enum import Enum
+import reflex as rx
 
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
@@ -14,3 +15,13 @@ class EmSize(Enum):
     DEFAULT = "1em" # 16px
     MEDIUM = "2em" # 32px
     LARGE = "4em" # 64px
+
+STYLESHEETS = [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+]
+
+BASE_STYLE = {
+    rx.button: {
+        "--cursor-button": "pointer",
+    }
+}

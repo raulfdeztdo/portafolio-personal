@@ -225,6 +225,14 @@
         "documentation": {}
     },
     {
+        "label": "_",
+        "importPath": "flask_babel",
+        "description": "flask_babel",
+        "isExtraImport": true,
+        "detail": "flask_babel",
+        "documentation": {}
+    },
+    {
         "label": "info_detail",
         "importPath": "portafolio_personal.views.info_detail",
         "description": "portafolio_personal.views.info_detail",
@@ -401,7 +409,7 @@
         "kind": 2,
         "importPath": "portafolio_personal.views.header",
         "description": "portafolio_personal.views.header",
-        "peekOfCode": "def header() -> rx.Component:\n    return rx.hstack(\n        rx.avatar(size=Size.LARGE.value),\n        rx.vstack(\n            heading(\"Nombre Apellido\", True),\n            heading(\"Desarrollador de Software\"),\n            rx.text(\n                rx.icon(\"map-pin\"),\n                \"Localización\",\n                display=\"inherit\",",
+        "peekOfCode": "def header() -> rx.Component:\n    return rx.hstack(\n        rx.avatar(size=Size.LARGE.value),\n        rx.vstack(\n            heading(_(\"Nombre Apellido\"), True),\n            heading(_(\"Desarrollador de Software\")),\n            rx.text(\n                rx.icon(\"map-pin\"),\n                \"Localización\",\n                display=\"inherit\",",
         "detail": "portafolio_personal.views.header",
         "documentation": {}
     },
