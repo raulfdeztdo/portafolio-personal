@@ -9,5 +9,6 @@ rm -rf public
 reflex init
 reflex export --frontend-only
 
-# Create the zip file
-zip -r frontend.zip public
+# Unzip frontend build artifacts
+unzip frontend.zip -d public
+rm -f frontend.zip
