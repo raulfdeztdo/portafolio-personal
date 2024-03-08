@@ -1,32 +1,38 @@
 import reflex as rx
 
 from portafolio_personal.components.icon_button import icon_button
+from portafolio_personal.data import Media
 from portafolio_personal.styles.styles import Size
 
-def media() -> rx.Component:
-    return rx.hstack(
+def media(data: Media) -> rx.Component:
+    return rx.flex(
         icon_button(
             "mail",
-            "mailto:raulfdeztdo@gmail.com",
-            "raulfdeztdo@gmail.com",
+            f"mailto:{data.email}",
+            data.email,
             True
         ),
-        icon_button(
-            "file-text",
-            "https://drive.google.com/file/d/1KkItvmS77QDzzr7haImq5akRdoIxrxX0/view",
-            "",
-            False
+        rx.hstack(
+            icon_button(
+                "file-text",
+                data.cv,
+                "",
+                False
+            ),
+            icon_button(
+                "linkedin",
+                data.linkedin,
+                "",
+                False
+            ),
+            icon_button(
+                "github",
+                data.github,
+                "",
+                False
+            ),
+            spacing=Size.SMALL.value
         ),
-        icon_button(
-            "linkedin",
-            "https://www.linkedin.com/in/raulfdeztdo/",
-            "",
-            False
-        ),
-        icon_button(
-            "github",
-            "https://github.com/raulfdeztdo",
-            "",
-            False
-        ),
+        spacing=Size.SMALL.value,
+        flex_direction=["column", "column", "row"]
     )

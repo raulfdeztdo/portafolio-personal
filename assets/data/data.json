@@ -1,0 +1,101 @@
+{
+    "avatar": "/favicon.ico",
+    "name": "Raúl Fernández Tirado",
+    "job_position": "Software Engineer",
+    "location": "Madrid, Spain",
+    "media": {
+        "email": "raulfdeztdo@gmail.com",
+        "cv": "https://drive.google.com/file/d/1KkItvmS77QDzzr7haImq5akRdoIxrxX0/view",
+        "linkedin": "https://www.linkedin.com/in/raulfdeztdo/",
+        "github": "https://github.com/raulfdeztdo"
+    },
+    "about": "I'm a software engineer with a passion for building things. I love to learn and I'm always looking for new challenges. I'm a big fan of open source and I'm always looking for ways to give back to the community.",
+    "skills": [
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-php-plain",
+            "name": "PHP"
+        },
+        {
+            "icon": "devicon-laravel-original",
+            "name": "Laravel"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "box-select",
+            "title": "Company",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "dates": "2019 - Present"
+        },
+        {
+            "icon": "box-select",
+            "title": "Company",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "dates": "2019 - Present"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "box-select",
+            "title": "Company",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "skills": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://www.google.com",
+            "github": "https://github.com/raulfdeztdo"
+        },
+        {
+            "icon": "box-select",
+            "title": "Company",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "skills": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://www.google.com",
+            "github": "https://github.com/raulfdeztdo"
+        }
+    ],
+    "training": [
+        {
+            "icon": "box-select",
+            "title": "University",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "dates": "2019 - Present",
+            "certificate": "https://www.google.com"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/favicon.ico",
+            "title": "Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "https://www.google.com"
+        }
+    ]
+}
