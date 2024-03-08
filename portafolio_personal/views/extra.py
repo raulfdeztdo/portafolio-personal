@@ -16,7 +16,7 @@ def extra(extras: list[Extra], lang) -> rx.Component:
                 ],
                 spacing=Size.DEFAULT.value
             ),
-            width="100%",
+            width="100%"
         ),
         rx.tablet_and_desktop(
             rx.grid(
@@ -30,5 +30,5 @@ def extra(extras: list[Extra], lang) -> rx.Component:
             width="100%",
         ),
         spacing=Size.DEFAULT.value,
-        width="100%",
+        width="100%"
     )
