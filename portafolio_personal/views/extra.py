@@ -1,3 +1,4 @@
+from typing import List
 import reflex as rx
 
 from portafolio_personal.components.card_detail import card_detail
@@ -5,7 +6,7 @@ from portafolio_personal.components.heading import heading
 from portafolio_personal.styles.styles import Size
 from portafolio_personal.data import Extra
 
-def extra(extras: list[Extra], lang) -> rx.Component:
+def extra(extras: List[Extra], lang) -> rx.Component:
     return rx.vstack(
         heading("Extra"),
         rx.mobile_only(
