@@ -1,3 +1,4 @@
+from typing import List
 import reflex as rx
 
 from portafolio_personal.components.heading import heading
@@ -6,7 +7,7 @@ from portafolio_personal.styles.styles import Size
 from portafolio_personal.translations import get_translation
 
 
-def tech_stack(skills: list[Skill] ,lang) -> rx.Component:
+def tech_stack(skills: List[Skill] ,lang) -> rx.Component:
     return rx.vstack(
         heading(get_translation("skills_title", lang)),
         rx.flex(
