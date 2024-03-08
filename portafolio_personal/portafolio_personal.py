@@ -35,7 +35,7 @@ def index(lang='es') -> rx.Component:
 
 app = rx.App(
     stylesheets=STYLESHEETS,
-    style=BASE_STYLE, # type: ignore
+    style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
         accentColor="sky",
