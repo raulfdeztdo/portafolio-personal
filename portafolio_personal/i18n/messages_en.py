@@ -1,18 +1,17 @@
 MESSAGES = {
     # Portafolio Page
     "page_title": "Personal Portfolio",
-    # Header
-    "job_position": "Software Developer",
-    "location": "Santiago de Compostela, A Coruña, Spain",
     # About
     "about_title": "About me",
-    "about_description": "I am a software developer with experience in web and mobile application development. I love learning new technologies and working on interesting projects.",
-    # Info
+    # Skills
     "skills_title": "Skills",
+    # Experience
+    "experience_title": "Experience",
+    # Projects
+    "projects_title": "Projects",
+    # Training
+    "training_title": "Training",
     # Extra
     # Footer
-    "experience_title": "Experience",
-    "projects_title": "Projects",
-    "training_title": "Training",
-    # Footer
+    "footer_text": "By Raúl Fernández Tirado 🖥️",
 }

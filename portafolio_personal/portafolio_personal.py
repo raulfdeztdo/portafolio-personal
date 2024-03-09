@@ -1,5 +1,5 @@
 import reflex as rx
-import portafolio_personal.data as data
+import portafolio_personal.data as data_es, portafolio_personal.data as data_en
 from portafolio_personal.views.about import about
 from portafolio_personal.views.extra import extra
 from portafolio_personal.views.footer import footer
@@ -9,9 +9,8 @@ from portafolio_personal.views.info import info
 from portafolio_personal.views.tech_stack import tech_stack
 from portafolio_personal.translations import get_translation
 
-DATA = data.data
-
 def index(lang='es') -> rx.Component:
+    DATA = data_es.data_es if lang == 'es' else data_en.data_en
     return rx.center(
             # rx.theme_panel(),
             rx.vstack(

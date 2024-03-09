@@ -1,0 +1,199 @@
+{
+    "avatar": "/favicon.ico",
+    "name": "Raúl Fernández Tirado",
+    "job_position": "Desarrollador web",
+    "location": "Santiago de Compostela, España",
+    "media": {
+        "email": "raulfdeztdo@gmail.com",
+        "cv": "https://drive.google.com/file/d/1KkItvmS77QDzzr7haImq5akRdoIxrxX0/view",
+        "linkedin": "https://www.linkedin.com/in/raulfdeztdo/",
+        "github": "https://github.com/raulfdeztdo"
+    },
+    "about": "Graduado en Ingeniería Informática por la Universidad de Jaén, actualmente trabajo como desarrollador web con PHP, especialmente usando Laravel. Conocimientos de Python y desarrollo web con Django. ",
+    "skills": [
+        {
+            "icon": "devicon-php-plain",
+            "name": "PHP"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-swift-plain",
+            "name": "Swift"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML5"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS3"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
+        },
+        {
+            "icon": "devicon-laravel-original",
+            "name": "Laravel"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
+        },
+        {
+            "icon": "devicon-vscode-plain",
+            "name": "VSCode"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-plain",
+            "name": "Github"
+        },
+        {
+            "icon": "devicon-mysql-original",
+            "name": "MySQL"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "MySQL"
+        },
+        {
+            "icon": "devicon-jira-plain",
+            "name": "Jira"
+        },
+        {
+            "icon": "devicon-bitbucket-original",
+            "name": "Bitbucket"
+        },
+        {
+            "icon": "devicon-jquery-plain",
+            "name": "jQuery"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "Javascript"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
+        },
+        {
+            "icon": "devicon-cplusplus-plain",
+            "name": "C++"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "briefcase",
+            "title": "ITGallery SLU",
+            "subtitle": "Desarrollador Full Stack (En remoto)",
+            "description": "Experiencia en el desarrollo y mantenimiento de proyectos web en PHP, creación de APIs con Laravel, personalización de plantillas en Shopify mediante Liquid y desarrollo de scripts en Python. Destacada integración de múltiples APIs de terceros. Uso profesional de Bitbucket y Docker para trabajo remoto, colaboración en equipos ágiles bajo metodología SCRUM y gestión de proyectos con Jira",
+            "dates": ["Ago 2022 - Actualidad"]
+        },
+        {
+            "icon": "briefcase",
+            "title": "Inforalia SL",
+            "subtitle": "Desarrollador PHP",
+            "description": "Experiencia como desarrollador backend PHP, con incursiones significativas en el desarrollo frontend trabajando en equipo. Utilización de un framework interno para el backend, operando bajo la metodología ágil SCRUM para ofrecer soluciones integradas y colaborativas. Contribución al equipo en la integración efectiva de APIs de terceros para potenciar funcionalidades en nuestras aplicaciones, fortaleciendo su eficiencia y versatilidad.",
+            "dates": ["Jun 2021 - Ago 2022"]
+        },
+        {
+            "icon": "briefcase",
+            "title": "Riosa",
+            "subtitle": "Desarrollador Full Stack",
+            "description": "Desarrollo de aplicaciones web en PHP para la gestión de la empresa, mantenimiento de servidores Linux y sistemas de oficina. Enfoque en la eficiencia operativa y la integración de sistemas innovadores.",
+            "dates": ["Ago 2020 - Feb 2021", "Jun 2019 - Sep 2019", "Jun 2018 - Sep 2018"]
+        },
+        {
+            "icon": "briefcase",
+            "title": "Castroluz SL",
+            "subtitle": "Becario de Ingeniería Informática",
+            "description": "Participación en la Beca ICARO enfocada en el desarrollo de aplicaciones web legacy utilizando PHP, Bootstrap, jQuery. Gestión de portales de ventas en línea con Oxatis. Experiencia directa en la creación y mantenimiento de soluciones web dinámicas.",
+            "dates": ["Feb 2020 - Ago 2020"]
+        }
+    ],
+    "projects": [
+        {
+            "icon": "box-select",
+            "title": "Company",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "skills": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://www.google.com",
+            "github": "https://github.com/raulfdeztdo"
+        },
+        {
+            "icon": "box-select",
+            "title": "Company",
+            "subtitle": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "skills": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "JavaScript"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://www.google.com",
+            "github": "https://github.com/raulfdeztdo"
+        }
+    ],
+    "training": [
+        {
+            "icon": "graduation-cap",
+            "title": "Universidad de Jaén",
+            "subtitle": "Grado en Ingeniería Informática",
+            "description": "Especialidad en Tecnologías de la Información",
+            "dates": ["2015 - 2020"],
+            "certificate": "https://www.google.com"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Grupa Uczelni Vistula",
+            "subtitle": "Engineer's degree, Computer Science",
+            "description": "Beca Erasmus+",
+            "dates": ["2018 - 2019"],
+            "certificate": "https://www.google.com"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Universidad de Huelva",
+            "subtitle": "Grado en Ingeniería Informática",
+            "description": "Beca de movilidad SICUE",
+            "dates": ["2017 - 2018"],
+            "certificate": "https://www.google.com"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/favicon.ico",
+            "title": "Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "https://www.google.com"
+        }
+    ]
+}

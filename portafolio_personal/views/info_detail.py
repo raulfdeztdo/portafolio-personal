@@ -70,7 +70,16 @@ def info_detail(info: Info) -> rx.Component:
         rx.vstack(
             rx.cond(
                 info.dates != "",
-                rx.badge(info.dates),
+                rx.flex(
+                    *[
+                        rx.badge(date)
+                        for date in info.dates
+                    ],
+                    wrap="wrap",
+                    spacing=Size.DEFAULT.value,
+                    justify_content="right",
+                    flex_direction="column"
+                )
             ),
             rx.cond(
                 info.certificate != "",
