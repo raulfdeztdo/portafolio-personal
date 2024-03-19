@@ -1,7 +1,7 @@
 {
-    "avatar": "/favicon.ico",
+    "avatar": "/images/logo.png",
     "name": "Raúl Fernández Tirado",
-    "job_position": "Desarrollador web",
+    "job_position": "Desarrollador Full Stack",
     "location": "Santiago de Compostela, España",
     "media": {
         "email": "raulfdeztdo@gmail.com",
@@ -9,62 +9,38 @@
         "linkedin": "https://www.linkedin.com/in/raulfdeztdo/",
         "github": "https://github.com/raulfdeztdo"
     },
-    "about": "Graduado en Ingeniería Informática por la Universidad de Jaén, actualmente trabajo como desarrollador web con PHP, especialmente usando Laravel. Conocimientos de Python y desarrollo web con Django. ",
+    "about": "Graduado en Ingeniería Informática por la Universidad de Jaén, actualmente trabajo como desarrollador web con PHP, especialmente usando Laravel. Conocimientos de Python y desarrollo web con Django.",
     "skills": [
         {
             "icon": "devicon-php-plain",
             "name": "PHP"
         },
         {
+            "icon": "devicon-laravel-original",
+            "name": "Laravel"
+        },
+        {
             "icon": "devicon-python-plain",
             "name": "Python"
-        },
-        {
-            "icon": "devicon-swift-plain",
-            "name": "Swift"
-        },
-        {
-            "icon": "devicon-javascript-plain",
-            "name": "JavaScript"
-        },
-        {
-            "icon": "devicon-html5-plain",
-            "name": "HTML5"
-        },
-        {
-            "icon": "devicon-css3-plain",
-            "name": "CSS3"
         },
         {
             "icon": "devicon-django-plain",
             "name": "Django"
         },
         {
-            "icon": "devicon-laravel-original",
-            "name": "Laravel"
+            "icon": "devicon-swift-plain",
+            "name": "Swift 5"
         },
         {
             "icon": "devicon-docker-plain",
             "name": "Docker"
         },
         {
-            "icon": "devicon-vscode-plain",
-            "name": "VSCode"
-        },
-        {
             "icon": "devicon-git-plain",
             "name": "Git"
         },
         {
-            "icon": "devicon-github-plain",
-            "name": "Github"
-        },
-        {
             "icon": "devicon-mysql-original",
-            "name": "MySQL"
-        },
-        {
-            "icon": "devicon-mysql-plain",
             "name": "MySQL"
         },
         {
@@ -78,18 +54,6 @@
         {
             "icon": "devicon-jquery-plain",
             "name": "jQuery"
-        },
-        {
-            "icon": "devicon-javascript-plain",
-            "name": "Javascript"
-        },
-        {
-            "icon": "devicon-java-plain",
-            "name": "Java"
-        },
-        {
-            "icon": "devicon-cplusplus-plain",
-            "name": "C++"
         }
     ],
     "experience": [

@@ -15,7 +15,7 @@ def info_detail(info: Info) -> rx.Component:
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
-                    color_scheme="gray"
+                    class_name="text-slate-200"
                 ),
                 rx.cond(
                     info.skills,
