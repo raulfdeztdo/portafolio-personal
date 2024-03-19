@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "dev": "postcss ./assets/tailwind.css -o ./assets/styles.css -w"
+        "dev": "postcss ./assets/tailwind.css -o ./assets/styles.css -w",
+        "build": "postcss ./assets/tailwind.css -o ./assets/styles.css"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.18",
