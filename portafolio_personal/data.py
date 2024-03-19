@@ -46,7 +46,10 @@ class Data :
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**extra) for extra in extras]
 
-with open("assets/data/data.json") as file:
-    json_data = json.load(file)
+def load_data(lang='es'):
+    with open(f"assets/data/data_{lang}.json") as file:
+        json_data = json.load(file)
+    return Data(**json_data)
 
-data = Data(**json_data)
+data_es = load_data('es')
+data_en = load_data('en')

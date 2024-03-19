@@ -3,6 +3,11 @@ import reflex as rx
 
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
+IMG_LOGO = "/images/logo.png"
+IMG_LOGO_TRANSPARENT = "/images/R-Logo-Transparent.png"
+IMG_LOGO_TR_LIGHT_SHADOW = "/images/R-Logo-Light-Shadow.png"
+IMG_LOGO_TR_DARK_SHADOW = "/images/R-Logo-Dark-Shadow.png"
+IMG_LOGO_NAVBAR = "/images/logo-navbar.png"
 
 class Size(Enum):
     ZERO = "0" # 0px
@@ -17,10 +22,15 @@ class EmSize(Enum):
     LARGE = "4em" # 64px
 
 STYLESHEETS = [
-    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
+    "/fonts/fonts.css",
+    "/switch-dark-light-mode.css",
+    "/styles.css",
 ]
 
 BASE_STYLE = {
+    "fontFamily": "'LexendDeca', sans-serif",
+    "backgroundColor": "rgb(30 41 59) !important",
     rx.button: {
         "--cursor-button": "pointer",
     }

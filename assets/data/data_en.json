@@ -1,20 +1,16 @@
 {
     "avatar": "/favicon.ico",
     "name": "Raúl Fernández Tirado",
-    "job_position": "Software Engineer",
-    "location": "Madrid, Spain",
+    "job_position": "Full Stack Developer",
+    "location": "Santiago de Compostela, Spain",
     "media": {
         "email": "raulfdeztdo@gmail.com",
         "cv": "https://drive.google.com/file/d/1KkItvmS77QDzzr7haImq5akRdoIxrxX0/view",
         "linkedin": "https://www.linkedin.com/in/raulfdeztdo/",
         "github": "https://github.com/raulfdeztdo"
     },
-    "about": "I'm a software engineer with a passion for building things. I love to learn and I'm always looking for new challenges. I'm a big fan of open source and I'm always looking for ways to give back to the community.",
+    "about": "Graduated in Computer Engineering from the University of Jaén, I currently work as a web developer with PHP, especially using Laravel. Knowledge of Python and web development with Django.",
     "skills": [
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
-        },
         {
             "icon": "devicon-php-plain",
             "name": "PHP"
@@ -22,6 +18,42 @@
         {
             "icon": "devicon-laravel-original",
             "name": "Laravel"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
+        },
+        {
+            "icon": "devicon-swift-plain",
+            "name": "Swift 5"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-mysql-original",
+            "name": "MySQL"
+        },
+        {
+            "icon": "devicon-jira-plain",
+            "name": "Jira"
+        },
+        {
+            "icon": "devicon-bitbucket-original",
+            "name": "Bitbucket"
+        },
+        {
+            "icon": "devicon-jquery-plain",
+            "name": "jQuery"
         }
     ],
     "experience": [

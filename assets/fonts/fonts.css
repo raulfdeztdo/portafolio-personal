@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LexendDeca';
+    src: url('Lexend_Deca/LexendDeca-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuickSand';
+    src: url('Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansMono';
+    src: url('Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.lexend-deca {
+    font-family: 'LexendDeca', sans-serif !important;
+}
+
+.quicksand {
+    font-family: 'QuickSand', sans-serif !important;
+}
+
+.noto-sans-mono {
+    font-family: 'NotoSansMono', monospace !important;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif !important;
+}
