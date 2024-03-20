@@ -1,6 +1,7 @@
 import reflex as rx
 import portafolio_personal.data as data_es, portafolio_personal.data as data_en
 from portafolio_personal.components.navbar import navbar
+from portafolio_personal.components.banner import banner
 from portafolio_personal.views.about import about
 from portafolio_personal.views.extra import extra
 from portafolio_personal.views.footer import footer
@@ -16,11 +17,12 @@ def index(lang='es') -> rx.Component:
             rx.script(
                 src="/darkmode.js",
             ),
-            navbar(lang),
+            navbar(),
+            banner(lang),
             rx.center(
                 # rx.theme_panel(),
                 rx.vstack(
-                    header(DATA, lang),
+                    header(DATA),
                     about(DATA.about, lang),
                     rx.divider(),
                     tech_stack(DATA.skills, lang),
@@ -36,9 +38,10 @@ def index(lang='es') -> rx.Component:
                     max_width=MAX_WIDTH,
                     width="100%"
                 ),
-                class_name="flex mt-14 justify-center items-center w-full text-slate-900 dark:text-slate-200 bg-slate-200 dark:bg-slate-900"
+                class_name="flex justify-center items-center w-full text-slate-900 dark:text-slate-200 bg-slate-200 dark:bg-slate-900"
             ),
-            class_name="relative"
+            class_name="relative",
+            spacing=Size.ZERO.value,
         )
 
 class HeadTags(rx.Component):
