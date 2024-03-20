@@ -30,7 +30,7 @@ STYLESHEETS = [
 
 BASE_STYLE = {
     "fontFamily": "'LexendDeca', sans-serif",
-    "backgroundColor": "rgb(30 41 59) !important",
+    "backgroundColor": "#334155 !important",
     rx.button: {
         "--cursor-button": "pointer",
     }

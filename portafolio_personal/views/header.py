@@ -4,10 +4,9 @@ from portafolio_personal.components.heading import heading
 from portafolio_personal.components.media import media
 from portafolio_personal.data import Data
 from portafolio_personal.styles.styles import Size
-from portafolio_personal.translations import get_translation
 
-def  header(data: Data, lang) -> rx.Component:
-    return rx.hstack(
+def  header(data: Data) -> rx.Component:
+    return rx.flex(
         rx.avatar(
             src=data.avatar,
             size=Size.LARGE.value
@@ -21,7 +20,9 @@ def  header(data: Data, lang) -> rx.Component:
                 display="inherit",
             ),
             media(data.media),
-            spacing=Size.SMALL.value
+            spacing=Size.DEFAULT.value
         ),
-        spacing=Size.DEFAULT.value
+        spacing=Size.DEFAULT.value,
+        flex_direction=["column ", "row"],
+        align_items="center",
     )
