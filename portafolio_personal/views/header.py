@@ -25,4 +25,5 @@ def  header(data: Data) -> rx.Component:
         spacing=Size.DEFAULT.value,
         flex_direction=["column ", "row"],
         align_items="center",
+        class_name="box-s"
     )

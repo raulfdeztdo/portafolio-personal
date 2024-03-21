@@ -492,6 +492,26 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.box-s {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  padding: 2.5rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.box-s:hover {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #7dd3fc;
+}
+:is(.dark .box-s) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  --tw-shadow-color: #020617;
+  --tw-shadow: var(--tw-shadow-colored);
+}
 .fixed {
   position: fixed;
 }
@@ -525,15 +545,6 @@ video {
 .h-24 {
   height: 6rem;
 }
-.h-72 {
-  height: 18rem;
-}
-.h-auto {
-  height: auto;
-}
-.h-1\/4 {
-  height: 25%;
-}
 .h-96 {
   height: 24rem;
 }
@@ -542,9 +553,6 @@ video {
 }
 .flex-wrap {
   flex-wrap: wrap;
-}
-.content-center {
-  align-content: center;
 }
 .items-center {
   align-items: center;
@@ -576,16 +584,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-.pb-12 {
-  padding-bottom: 3rem;
 }
 .pb-24 {
   padding-bottom: 6rem;
@@ -645,10 +643,6 @@ video {
     height: 16rem;
   }
 
-  .md\:content-start {
-    align-content: flex-start;
-  }
-
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -670,30 +664,6 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-}
-@media (min-width: 1024px) {
-
-  .lg\:pb-12 {
-    padding-bottom: 3rem;
-  }
-
-  .lg\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .lg\:pt-10 {
-    padding-top: 2.5rem;
-  }
-}
-@media (min-width: 1280px) {
-
-  .xl\:h-1\/4 {
-    height: 25%;
-  }
-
-  .xl\:pb-12 {
-    padding-bottom: 3rem;
   }
 }
 @media (min-width: 1536px) {

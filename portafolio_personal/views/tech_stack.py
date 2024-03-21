@@ -26,5 +26,6 @@ def tech_stack(skills: List[Skill] ,lang) -> rx.Component:
             wrap="wrap",
             spacing=Size.DEFAULT.value
         ),
-        spacing=Size.DEFAULT.value
+        spacing=Size.DEFAULT.value,
+        class_name="box-s"
     )

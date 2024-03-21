@@ -31,5 +31,6 @@ def extra(extras: List[Extra], lang) -> rx.Component:
             width="100%",
         ),
         spacing=Size.DEFAULT.value,
-        width="100%"
+        width="100%",
+        class_name="box-s"
     )
