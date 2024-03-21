@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .box-s {
+        @apply p-10 shadow-md dark:shadow-slate-950 hover:outline hover:outline-1 hover:outline-sky-300 bg-slate-300 rounded-2xl dark:bg-slate-800;
+    }
+}

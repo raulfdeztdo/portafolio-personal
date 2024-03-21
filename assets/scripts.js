@@ -1,3 +1,15 @@
+
+window.onload = function() {
+    var path = window.location.pathname;
+    var htmlTag = document.documentElement;
+
+    if (path === "/") {
+        htmlTag.lang = "es";
+    } else if (path === "/en") {
+        htmlTag.lang = "en";
+    }
+}
+
 // Obtenemos los botones de cambio de idioma
 var langEsBtn = document.getElementById('lang-es');
 var langEnBtn = document.getElementById('lang-en');

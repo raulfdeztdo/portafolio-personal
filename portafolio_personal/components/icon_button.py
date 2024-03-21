@@ -8,5 +8,6 @@ def icon_button(icon: str, url: str, text="", solid=False) -> rx.Component:
             variant="solid" if solid else "surface"
         ),
         href=url,
-        is_external=True
+        is_external=True,
+        class_name="flex justify-center"
     )

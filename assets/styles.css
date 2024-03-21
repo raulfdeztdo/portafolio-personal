@@ -492,6 +492,26 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.box-s {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  padding: 2.5rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.box-s:hover {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #7dd3fc;
+}
+:is(.dark .box-s) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  --tw-shadow-color: #020617;
+  --tw-shadow: var(--tw-shadow-colored);
+}
 .fixed {
   position: fixed;
 }
@@ -516,29 +536,20 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .flex {
   display: flex;
 }
 .grid {
   display: grid;
 }
-.h-48 {
-  height: 12rem;
-}
 .h-24 {
   height: 6rem;
 }
+.h-96 {
+  height: 24rem;
+}
 .w-full {
   width: 100%;
-}
-.flex-grow {
-  flex-grow: 1;
-}
-.flex-col {
-  flex-direction: column;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -557,11 +568,11 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
-.bg-3 {
-  background-image: url('/images/bg-3.svg');
-}
 .bg-3b {
   background-image: url('/images/bg-3b.svg');
+}
+.bg-foot-3 {
+  background-image: url('/images/bg-foot-3.svg');
 }
 .bg-cover {
   background-size: cover;
@@ -573,6 +584,9 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
 }
 .text-center {
   text-align: center;
@@ -625,28 +639,12 @@ video {
 }
 @media (min-width: 768px) {
 
-  .md\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .md\:h-72 {
-    height: 18rem;
-  }
-
-  .md\:h-48 {
-    height: 12rem;
-  }
-
-  .md\:h-56 {
-    height: 14rem;
-  }
-
   .md\:h-64 {
     height: 16rem;
   }
 
-  .md\:bg-cover {
-    background-size: cover;
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:px-10 {
@@ -668,16 +666,6 @@ video {
     line-height: 1.75rem;
   }
 }
-@media (min-width: 1280px) {
-
-  .xl\:h-48 {
-    height: 12rem;
-  }
-
-  .xl\:bg-3 {
-    background-image: url('/images/bg-3.svg');
-  }
-}
 @media (min-width: 1536px) {
 
   .\32xl\:h-48 {
@@ -686,5 +674,13 @@ video {
 
   .\32xl\:bg-3 {
     background-image: url('/images/bg-3.svg');
+  }
+
+  .\32xl\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .\32xl\:pt-10 {
+    padding-top: 2.5rem;
   }
 }
