@@ -31,7 +31,6 @@ def index(lang='es') -> rx.Component:
                     info(get_translation("training_title", lang), DATA.training, lang),
                     extra(DATA.extras, lang),
                     rx.divider(),
-                    footer(DATA, lang),
                     spacing=Size.LARGE.value,
                     padding_x=EmSize.MEDIUM.value,
                     padding_y=EmSize.LARGE.value,
@@ -40,6 +39,7 @@ def index(lang='es') -> rx.Component:
                 ),
                 class_name="flex justify-center items-center w-full text-slate-900 dark:text-slate-200 bg-slate-200 dark:bg-slate-900"
             ),
+            footer(DATA, lang),
             class_name="relative",
             spacing=Size.ZERO.value,
         )
@@ -57,6 +57,7 @@ class HeadTags(rx.Component):
         """)
 
 app = rx.App(
+    lang="en",
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
     head_tags=HeadTags(),
