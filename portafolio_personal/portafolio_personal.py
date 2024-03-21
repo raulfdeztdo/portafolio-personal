@@ -14,53 +14,39 @@ from portafolio_personal.translations import get_translation
 def index(lang='es') -> rx.Component:
     DATA = data_es.data_es if lang == 'es' else data_en.data_en
     return rx.vstack(
-            rx.script(
-                src="/darkmode.js",
+        rx.script(
+            src="/scripts.js",
+        ),
+        navbar(),
+        banner(lang),
+        rx.center(
+            # rx.theme_panel(),
+            rx.vstack(
+                header(DATA),
+                about(DATA.about, lang),
+                rx.divider(),
+                tech_stack(DATA.skills, lang),
+                info(get_translation("experience_title", lang), DATA.experience, lang),
+                info(get_translation("projects_title", lang), DATA.project, lang),
+                info(get_translation("training_title", lang), DATA.training, lang),
+                extra(DATA.extras, lang),
+                rx.divider(),
+                spacing=Size.LARGE.value,
+                padding_x=EmSize.MEDIUM.value,
+                padding_y=EmSize.LARGE.value,
+                max_width=MAX_WIDTH,
+                width="100%"
             ),
-            navbar(),
-            banner(lang),
-            rx.center(
-                # rx.theme_panel(),
-                rx.vstack(
-                    header(DATA),
-                    about(DATA.about, lang),
-                    rx.divider(),
-                    tech_stack(DATA.skills, lang),
-                    info(get_translation("experience_title", lang), DATA.experience, lang),
-                    info(get_translation("projects_title", lang), DATA.project, lang),
-                    info(get_translation("training_title", lang), DATA.training, lang),
-                    extra(DATA.extras, lang),
-                    rx.divider(),
-                    spacing=Size.LARGE.value,
-                    padding_x=EmSize.MEDIUM.value,
-                    padding_y=EmSize.LARGE.value,
-                    max_width=MAX_WIDTH,
-                    width="100%"
-                ),
-                class_name="flex justify-center items-center w-full text-slate-900 dark:text-slate-200 bg-slate-200 dark:bg-slate-900"
-            ),
-            footer(DATA, lang),
-            class_name="relative",
-            spacing=Size.ZERO.value,
-        )
-
-class HeadTags(rx.Component):
-    def render(self):
-        return rx.html("""
-            <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-            <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
-            <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-            <meta name="msapplication-TileColor" content="#da532c">
-            <meta name="theme-color" content="#ffffff">
-        """)
+            class_name="flex justify-center items-center w-full text-slate-900 dark:text-slate-200 bg-slate-200 dark:bg-slate-900"
+        ),
+        footer(DATA, lang),
+        class_name="relative",
+        spacing=Size.ZERO.value
+    )
 
 app = rx.App(
-    lang="en",
     stylesheets=STYLESHEETS,
-    style=BASE_STYLE,
-    head_tags=HeadTags(),
+    style=BASE_STYLE
 )
 
 app.add_page(index("es"), route="/", title=get_translation("page_title", "es"))
