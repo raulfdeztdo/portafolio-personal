@@ -9,17 +9,18 @@ from portafolio_personal.data import Extra
 def extra(extras: List[Extra], lang) -> rx.Component:
     return rx.vstack(
         heading("Extra"),
-        rx.mobile_only(
+        rx.mobile_and_tablet(
             rx.vstack(
                 *[
                     card_detail(extra)
                     for extra in extras
                 ],
+                width="100%",
                 spacing=Size.DEFAULT.value
             ),
             width="100%"
         ),
-        rx.tablet_and_desktop(
+        rx.desktop_only(
             rx.grid(
                 *[
                     card_detail(extra)

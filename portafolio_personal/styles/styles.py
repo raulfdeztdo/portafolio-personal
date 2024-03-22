@@ -15,6 +15,7 @@ class Size(Enum):
     DEFAULT = "4" # 16px / 1em
     MEDIUM = "6" # 32px / 2em
     LARGE = "8" # 48px
+    EXTRALARGE = "9" # 64px
 
 class EmSize(Enum):
     DEFAULT = "1em" # 16px
@@ -29,7 +30,7 @@ STYLESHEETS = [
 ]
 
 BASE_STYLE = {
-    "fontFamily": "'LexendDeca', sans-serif",
+    "fontFamily": "'Rubik', sans-serif",
     "backgroundColor": "#334155 !important",
     rx.button: {
         "--cursor-button": "pointer",

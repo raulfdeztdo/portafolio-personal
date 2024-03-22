@@ -9,7 +9,7 @@ def  header(data: Data) -> rx.Component:
     return rx.flex(
         rx.avatar(
             src=data.avatar,
-            size=Size.LARGE.value
+            size=Size.EXTRALARGE.value
         ),
         rx.vstack(
             heading(data.name, True),
@@ -22,8 +22,9 @@ def  header(data: Data) -> rx.Component:
             media(data.media),
             spacing=Size.DEFAULT.value
         ),
-        spacing=Size.DEFAULT.value,
-        flex_direction=["column ", "row"],
+        width="100%",
+        spacing=Size.LARGE.value,
+        flex_direction=["column", "column", "row", "row"],
         align_items="center",
         class_name="box-s"
     )

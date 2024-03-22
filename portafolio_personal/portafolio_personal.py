@@ -24,13 +24,11 @@ def index(lang='es') -> rx.Component:
             rx.vstack(
                 header(DATA),
                 about(DATA.about, lang),
-                rx.divider(),
                 tech_stack(DATA.skills, lang),
                 info(get_translation("experience_title", lang), DATA.experience, lang),
                 info(get_translation("projects_title", lang), DATA.project, lang),
                 info(get_translation("training_title", lang), DATA.training, lang),
                 extra(DATA.extras, lang),
-                rx.divider(),
                 spacing=Size.LARGE.value,
                 padding_x=EmSize.MEDIUM.value,
                 padding_y=EmSize.LARGE.value,
