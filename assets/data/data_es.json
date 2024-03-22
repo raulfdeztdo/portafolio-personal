@@ -102,7 +102,7 @@
                     "name": "JavaScript"
                 }
             ],
-            "image": "/favicon.ico",
+            "image": "/images/logo.png",
             "url": "https://www.google.com",
             "github": "https://github.com/raulfdeztdo"
         },
@@ -121,7 +121,7 @@
                     "name": "JavaScript"
                 }
             ],
-            "image": "/favicon.ico",
+            "image": "/images/logo.png",
             "url": "https://www.google.com",
             "github": "https://github.com/raulfdeztdo"
         }
@@ -154,7 +154,7 @@
     ],
     "extras": [
         {
-            "image": "/favicon.ico",
+            "image": "/images/logo.png",
             "title": "Title",
             "description": "Lorems ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "url": "https://www.google.com"

@@ -7,6 +7,6 @@ def heading(text: str, h1=False) -> rx.Component:
         text,
         as_="h1" if h1 else "h2",
         size=Size.LARGE.value if h1 else Size.MEDIUM.value,
-        font_family="LexendDeca",
+        font_family="Rubik",
         class_name="font-bold"
     )

@@ -1,5 +1,5 @@
 {
-    "avatar": "/favicon.ico",
+    "avatar": "/images/logo.png",
     "name": "Raúl Fernández Tirado",
     "job_position": "Full Stack Developer",
     "location": "Santiago de Compostela, Spain",
@@ -58,18 +58,32 @@
     ],
     "experience": [
         {
-            "icon": "box-select",
-            "title": "Company",
-            "subtitle": "Software Engineer",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "dates": "2019 - Present"
+            "icon": "briefcase",
+            "title": "ITGallery SLU",
+            "subtitle": "Full Stack Developer (Remote)",
+            "description": "Experience in developing and maintaining web projects in PHP, creating APIs with Laravel, customizing templates in Shopify using Liquid and developing Python scripts. Outstanding integration of multiple third-party APIs. Professional use of Bitbucket and Docker for remote work, collaboration in agile teams under SCRUM methodology and project management with Jira",
+            "dates": ["Ago 2022 - Actualidad"]
         },
         {
-            "icon": "box-select",
-            "title": "Company",
-            "subtitle": "Software Engineer",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "dates": "2019 - Present"
+            "icon": "briefcase",
+            "title": "Inforalia SL",
+            "subtitle": "PHP Developer",
+            "description": "Experience as a PHP backend developer, with significant inroads into frontend development working as a team. Use of an internal framework for the backend, operating under the agile SCRUM methodology to offer integrated and collaborative solutions. Contribution to the team in the effective integration of third-party APIs to enhance functionalities in our applications, strengthening their efficiency and versatility.",
+            "dates": ["Jun 2021 - Ago 2022"]
+        },
+        {
+            "icon": "briefcase",
+            "title": "Riosa",
+            "subtitle": "Full Stack Developer",
+            "description": "Development of web applications in PHP for company management, maintenance of Linux servers and office systems. Focus on operational efficiency and innovative systems integration.",
+            "dates": ["Ago 2020 - Feb 2021", "Jun 2019 - Sep 2019", "Jun 2018 - Sep 2018"]
+        },
+        {
+            "icon": "briefcase",
+            "title": "Castroluz SL",
+            "subtitle": "Computer Engineering Intern",
+            "description": "Participation in the ICARO Scholarship focused on the development of legacy web applications using PHP, Bootstrap, jQuery. Management of online sales portals with Oxatis. Direct experience creating and maintaining dynamic web solutions.",
+            "dates": ["Feb 2020 - Ago 2020"]
         }
     ],
     "projects": [
@@ -88,7 +102,7 @@
                     "name": "JavaScript"
                 }
             ],
-            "image": "/favicon.ico",
+            "image": "/images/logo.png",
             "url": "https://www.google.com",
             "github": "https://github.com/raulfdeztdo"
         },
@@ -107,26 +121,42 @@
                     "name": "JavaScript"
                 }
             ],
-            "image": "/favicon.ico",
+            "image": "/images/logo.png",
             "url": "https://www.google.com",
             "github": "https://github.com/raulfdeztdo"
         }
     ],
     "training": [
         {
-            "icon": "box-select",
-            "title": "University",
-            "subtitle": "Software Engineer",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "dates": "2019 - Present",
+            "icon": "graduation-cap",
+            "title": "Jaen University",
+            "subtitle": "Degree in Computer Engineering",
+            "description": "Specialty in Information Technology",
+            "dates": ["2015 - 2020"],
+            "certificate": "https://www.google.com"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Grupa Uczelni Vistula",
+            "subtitle": "Engineer's degree, Computer Science",
+            "description": "Erasmus+ scholarship",
+            "dates": ["2018 - 2019"],
+            "certificate": "https://www.google.com"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "University of Huelva",
+            "subtitle": "Degree in Computer Engineering",
+            "description": "SICUE mobility scholarship",
+            "dates": ["2017 - 2018"],
             "certificate": "https://www.google.com"
         }
     ],
     "extras": [
         {
-            "image": "/favicon.ico",
+            "image": "/images/logo.png",
             "title": "Title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "Lorems ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "url": "https://www.google.com"
         }
     ]
