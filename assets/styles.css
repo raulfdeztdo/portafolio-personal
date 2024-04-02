@@ -736,6 +736,7 @@ video {
   color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
+
 @media (min-width: 640px) {
 
   .sm\:text-xl {
@@ -805,6 +806,7 @@ video {
   }
 }
 
+
 @media (min-width: 1280px) {
 
   .xl\:grid-cols-5 {
@@ -816,6 +818,7 @@ video {
     line-height: 1;
   }
 }
+
 
 @media (min-width: 1536px) {
 
