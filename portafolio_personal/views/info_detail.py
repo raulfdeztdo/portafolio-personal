@@ -15,7 +15,7 @@ def info_detail(info: Info) -> rx.Component:
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
-                    class_name="text-slate-200"
+                    class_name="dark:text-slate-200 text-slate-700"
                 ),
                 rx.cond(
                     info.skills,
@@ -64,7 +64,8 @@ def info_detail(info: Info) -> rx.Component:
                 height=IMAGE_HEIGHT,
                 aspect_ratio="1",
                 border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
+                object_fit="cover",
+                class_name="shadow-xl"
             )
         ),
         rx.vstack(

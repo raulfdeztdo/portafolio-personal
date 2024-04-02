@@ -31,16 +31,17 @@ function changeLanguage(langBtn, langPath) {
 function initializeDarkMode() {
     // Modo oscuro por defecto
     document.documentElement.classList.remove('no-js', 'light');
-    if (localStorage.getItem('color-theme') === 'light') {
-        document.documentElement.classList.remove('dark');
-        document.documentElement.classList.add('light');
-    } else if (localStorage.getItem('color-theme') === 'dark' || !('color-theme' in localStorage)) {
-        document.documentElement.classList.add('dark');
-    }
-
     var themeToggleBtn = document.getElementById('darkmode-toggle');
     var themeToggleDarkIcon = document.getElementById('darkMode');
     var themeToggleLightIcon = document.getElementById('lightMode');
+
+    if (localStorage.getItem('color-theme') === 'light') {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+        themeToggleBtn.click();
+    } else if (localStorage.getItem('color-theme') === 'dark' || !('color-theme' in localStorage)) {
+        document.documentElement.classList.add('dark');
+    }
 
     // Si los elementos existen, entonces ejecuta el código
     if (themeToggleBtn && themeToggleDarkIcon && themeToggleLightIcon) {

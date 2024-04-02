@@ -17,7 +17,7 @@ def footer(data: Data, lang) -> rx.Component:
             spacing=Size.DEFAULT.value,
             justify="end",
             align="center",
-            class_name="flex w-full pb-24 2xl:pb-12 2xl:pt-10 text-slate-900 dark:text-slate-200 bg-slate-700",
+            class_name="flex w-full pb-24 2xl:pb-12 2xl:pt-10 text-slate-200 bg-slate-700",
         ),
         class_name="flex w-full bg-slate-200 dark:bg-slate-900",
         spacing=Size.ZERO.value,

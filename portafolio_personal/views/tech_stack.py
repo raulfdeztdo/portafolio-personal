@@ -9,8 +9,8 @@ from portafolio_personal.translations import get_translation
 
 def tech_stack(skills: List[Skill] ,lang) -> rx.Component:
     return rx.vstack(
-        heading(get_translation("skills_title", lang)),
-        rx.flex(
+        heading(get_translation("skills_title", lang), True),
+        rx.box(
             *[
                 rx.badge(
                     rx.box(
@@ -23,9 +23,9 @@ def tech_stack(skills: List[Skill] ,lang) -> rx.Component:
                 for skill in skills
 
             ],
-            wrap="wrap",
-            spacing=Size.DEFAULT.value
+            class_name="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mx-auto",
         ),
-        spacing=Size.DEFAULT.value,
+        width="100%",
+        spacing=Size.LARGE.value,
         class_name="box-s"
     )

@@ -89,41 +89,69 @@
     "projects": [
         {
             "icon": "box-select",
-            "title": "Company",
-            "subtitle": "Software Engineer",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Exhibify",
+            "subtitle": "ITGallery SLU",
+            "description": "Exhibify es un portal de venta de arte online que permite a las galerías y artistas vender sus obras de arte a través de una plataforma construida con Shopify, en la que he participado en la creación, desarrollo y mantenimiento del proyecto",
             "skills": [
                 {
                     "icon": "devicon-devicon-plain",
+                    "name": "Liquid"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
                     "name": "JavaScript"
                 },
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "JavaScript"
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-swiper-original",
+                    "name": "Swiper"
                 }
             ],
-            "image": "/images/logo.png",
-            "url": "https://www.google.com",
-            "github": "https://github.com/raulfdeztdo"
+            "image": "/images/projects/exb.png",
+            "url": "https://www.exhibify.net",
+            "github": ""
         },
         {
             "icon": "box-select",
-            "title": "Company",
-            "subtitle": "Software Engineer",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Combinacion Ganadora",
+            "subtitle": "Inforalia SL",
+            "description": "Creación y desarrollo de una nueva versión de la web de Combinacion Ganadora, un portal de información sobre sorteos de lotería de distintos países. Uso de PHP 8 orientado a objetos.",
             "skills": [
                 {
-                    "icon": "devicon-devicon-plain",
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
                     "name": "JavaScript"
                 },
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "JavaScript"
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-foundation-plain",
+                    "name": "Foundation"
                 }
             ],
-            "image": "/images/logo.png",
-            "url": "https://www.google.com",
-            "github": "https://github.com/raulfdeztdo"
+            "image": "/images/projects/cg.png",
+            "url": "https://www.combinacionganadora.com/",
+            "github": ""
         }
     ],
     "training": [
