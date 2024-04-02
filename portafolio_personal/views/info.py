@@ -8,7 +8,7 @@ from portafolio_personal.views.info_detail import info_detail
 
 def info(title: str,infos: List[Info], lang) -> rx.Component:
     return rx.vstack(
-        heading(title),
+        heading(title, True),
         rx.vstack(
             *[
                 info_detail(info)
@@ -17,7 +17,7 @@ def info(title: str,infos: List[Info], lang) -> rx.Component:
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        spacing=Size.DEFAULT.value,
+        spacing=Size.LARGE.value,
         width="100%",
         class_name="box-s"
     )

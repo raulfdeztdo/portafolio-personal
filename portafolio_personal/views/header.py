@@ -12,12 +12,13 @@ def  header(data: Data) -> rx.Component:
             size=Size.EXTRALARGE.value
         ),
         rx.vstack(
-            heading(data.name, True),
+            heading(data.name, h1=True),
             heading(data.job_position),
             rx.text(
                 rx.icon("map-pin"),
                 data.location,
                 display="inherit",
+                class_name="text-sm md:text-lg"
             ),
             media(data.media),
             spacing=Size.DEFAULT.value

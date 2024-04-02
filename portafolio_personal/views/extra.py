@@ -8,7 +8,7 @@ from portafolio_personal.data import Extra
 
 def extra(extras: List[Extra], lang) -> rx.Component:
     return rx.vstack(
-        heading("Extra"),
+        heading("Extra", True),
         rx.mobile_and_tablet(
             rx.vstack(
                 *[
@@ -31,7 +31,7 @@ def extra(extras: List[Extra], lang) -> rx.Component:
             ),
             width="100%",
         ),
-        spacing=Size.DEFAULT.value,
+        spacing=Size.LARGE.value,
         width="100%",
         class_name="box-s"
     )

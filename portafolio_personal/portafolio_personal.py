@@ -28,7 +28,7 @@ def index(lang='es') -> rx.Component:
                 info(get_translation("experience_title", lang), DATA.experience, lang),
                 info(get_translation("projects_title", lang), DATA.project, lang),
                 info(get_translation("training_title", lang), DATA.training, lang),
-                extra(DATA.extras, lang),
+                # extra(DATA.extras, lang),
                 spacing=Size.LARGE.value,
                 padding_x=EmSize.MEDIUM.value,
                 padding_y=EmSize.LARGE.value,
