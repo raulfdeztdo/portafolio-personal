@@ -11,7 +11,8 @@ def card_detail(extra: Extra) -> rx.Component:
                     src=extra.image,
                     height=IMAGE_HEIGHT,
                     width="100%",
-                    object_fit="cover"
+                    object_fit="cover",
+                    alt=extra.title
                 ),
                 pb=Size.DEFAULT.value
             ),

@@ -17,7 +17,7 @@ def media(data: Media) -> rx.Component:
                 "file-text",
                 data.cv,
                 "",
-                False
+                False,
             ),
             icon_button(
                 "linkedin",

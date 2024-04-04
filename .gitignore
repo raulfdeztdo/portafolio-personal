@@ -92,6 +92,7 @@
 .venv
 .web
 .webassets-cache
+.DS_Store
 /site
 ENV/
 MANIFEST
