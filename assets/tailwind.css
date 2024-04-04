@@ -4,6 +4,6 @@
 
 @layer components {
     .box-s {
-        @apply p-10 shadow-md dark:shadow-slate-950 hover:outline hover:outline-1 hover:outline-sky-300 bg-stone-100 rounded-2xl dark:bg-slate-800;
+        @apply shadow-md p-7 md:p-10 dark:shadow-slate-950 hover:outline hover:outline-1 hover:outline-sky-300 bg-stone-100 rounded-2xl dark:bg-slate-800;
     }
 }

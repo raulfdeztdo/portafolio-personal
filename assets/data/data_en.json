@@ -58,31 +58,35 @@
     ],
     "experience": [
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "ITGallery SLU",
             "subtitle": "Full Stack Developer (Remote)",
             "description": "Experience in developing and maintaining web projects in PHP, creating APIs with Laravel, customizing templates in Shopify using Liquid and developing Python scripts. Outstanding integration of multiple third-party APIs. Professional use of Bitbucket and Docker for remote work, collaboration in agile teams under SCRUM methodology and project management with Jira",
+            "image": "/images/companies/itg.webp",
             "dates": ["Ago 2022 - Actualidad"]
         },
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "Inforalia SL",
             "subtitle": "PHP Developer",
             "description": "Experience as a PHP backend developer, with significant inroads into frontend development working as a team. Use of an internal framework for the backend, operating under the agile SCRUM methodology to offer integrated and collaborative solutions. Contribution to the team in the effective integration of third-party APIs to enhance functionalities in our applications, strengthening their efficiency and versatility.",
+            "image": "/images/companies/inforalia.webp",
             "dates": ["Jun 2021 - Ago 2022"]
         },
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "Riosa",
             "subtitle": "Full Stack Developer",
             "description": "Development of web applications in PHP for company management, maintenance of Linux servers and office systems. Focus on operational efficiency and innovative systems integration.",
+            "image": "/images/companies/riosa.webp",
             "dates": ["Ago 2020 - Feb 2021", "Jun 2019 - Sep 2019", "Jun 2018 - Sep 2018"]
         },
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "Castroluz SL",
             "subtitle": "Computer Engineering Intern",
             "description": "Participation in the ICARO Scholarship focused on the development of legacy web applications using PHP, Bootstrap, jQuery. Management of online sales portals with Oxatis. Direct experience creating and maintaining dynamic web solutions.",
+            "image": "/images/companies/sunaca.webp",
             "dates": ["Feb 2020 - Ago 2020"]
         }
     ],
@@ -114,8 +118,47 @@
                     "name": "Swiper"
                 }
             ],
-            "image": "/images/projects/exb.png",
+            "image": "/images/projects/exb.webp",
             "url": "https://www.exhibify.net",
+            "github": ""
+        },
+        {
+            "icon": "box-select",
+            "title": "ITGallery App",
+            "subtitle": "ITGallery SLU",
+            "description": "Development and maintenance of a Web app for the management of art galleries, artists and collectors. Use of PHP 8.2, Laravel, JavaScript, jQuery, CSS3, MySQL.",
+            "skills": [
+                {
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-laravel-original",
+                    "name": "Laravel"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ],
+            "image": "/images/companies/itg.webp",
+            "url": "https://admin.itgalleryapp.com/",
             "github": ""
         },
         {
@@ -149,7 +192,42 @@
                     "name": "Foundation"
                 }
             ],
-            "image": "/images/projects/cg.png",
+            "image": "/images/projects/cg.webp",
+            "url": "https://www.combinacionganadora.com/",
+            "github": ""
+        },
+        {
+            "icon": "box-select",
+            "title": "Redalia",
+            "subtitle": "Inforalia SL",
+            "description": "Development and maintenance of the SSL certificate sales and analysis portal.",
+            "skills": [
+                {
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-foundation-plain",
+                    "name": "Foundation"
+                }
+            ],
+            "image": "/images/projects/redalia.webp",
             "url": "https://www.combinacionganadora.com/",
             "github": ""
         }
@@ -160,7 +238,7 @@
             "title": "University of Jaén",
             "subtitle": "Bachelor’s Degree in Computer Engineering",
             "description": "Specialty in Information Technology",
-            "dates": ["2015 - 2020"],
+            "dates": ["Sept 2015 - Jun 2020"],
             "certificate": ""
         },
         {
@@ -168,7 +246,7 @@
             "title": "Grupa Uczelni Vistula",
             "subtitle": "Engineer's degree, Computer Science",
             "description": "Erasmus+ scholarship",
-            "dates": ["2018 - 2019"],
+            "dates": ["Sept 2018 - Jun 2019"],
             "certificate": ""
         },
         {
@@ -176,7 +254,7 @@
             "title": "University of Huelva",
             "subtitle": "Degree in Computer Engineering",
             "description": "SICUE mobility scholarship",
-            "dates": ["2017 - 2018"],
+            "dates": ["Sept 2017 - Jun 2018"],
             "certificate": ""
         }
     ],
