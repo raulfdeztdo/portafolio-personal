@@ -17,8 +17,9 @@ def tech_stack(skills: List[Skill] ,lang) -> rx.Component:
                         class_name=skill.icon,
                         font_size="24px"
                     ),
-                    rx.text(skill.name),
-                    size="2"
+                    rx.text(skill.name, class_name="justify-center"),
+                    size="2",
+                    class_name="justify-center"
                 )
                 for skill in skills
 

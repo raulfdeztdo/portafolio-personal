@@ -3,6 +3,8 @@ import reflex as rx
 
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
+IMAGE_HEIGHT_LOGO_MOBILE = "75px"
+IMAGE_HEIGHT_LOGO_DESKTOP = "125px"
 IMG_LOGO = "/images/logo.png"
 IMG_LOGO_TRANSPARENT = "/images/R-Logo-Transparent.png"
 IMG_LOGO_TR_LIGHT_SHADOW = "/images/R-Logo-Light-Shadow.png"

@@ -58,31 +58,35 @@
     ],
     "experience": [
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "ITGallery SLU",
             "subtitle": "Desarrollador Full Stack (En remoto)",
             "description": "Experiencia en el desarrollo y mantenimiento de proyectos web en PHP, creación de APIs con Laravel, personalización de plantillas en Shopify mediante Liquid y desarrollo de scripts en Python. Destacada integración de múltiples APIs de terceros. Uso profesional de Bitbucket y Docker para trabajo remoto, colaboración en equipos ágiles bajo metodología SCRUM y gestión de proyectos con Jira",
+            "image": "/images/companies/itg.webp",
             "dates": ["Ago 2022 - Actualidad"]
         },
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "Inforalia SL",
             "subtitle": "Desarrollador PHP",
             "description": "Experiencia como desarrollador backend PHP, con incursiones significativas en el desarrollo frontend trabajando en equipo. Utilización de un framework interno para el backend, operando bajo la metodología ágil SCRUM para ofrecer soluciones integradas y colaborativas. Contribución al equipo en la integración efectiva de APIs de terceros para potenciar funcionalidades en nuestras aplicaciones, fortaleciendo su eficiencia y versatilidad.",
+            "image": "/images/companies/inforalia.webp",
             "dates": ["Jun 2021 - Ago 2022"]
         },
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "Riosa",
             "subtitle": "Desarrollador Full Stack",
             "description": "Desarrollo de aplicaciones web en PHP para la gestión de la empresa, mantenimiento de servidores Linux y sistemas de oficina. Enfoque en la eficiencia operativa y la integración de sistemas innovadores.",
+            "image": "/images/companies/riosa.webp",
             "dates": ["Ago 2020 - Feb 2021", "Jun 2019 - Sep 2019", "Jun 2018 - Sep 2018"]
         },
         {
-            "icon": "briefcase",
+            "icon": "box-select",
             "title": "Castroluz SL",
             "subtitle": "Becario de Ingeniería Informática",
             "description": "Participación en la Beca ICARO enfocada en el desarrollo de aplicaciones web legacy utilizando PHP, Bootstrap, jQuery. Gestión de portales de ventas en línea con Oxatis. Experiencia directa en la creación y mantenimiento de soluciones web dinámicas.",
+            "image": "/images/companies/sunaca.webp",
             "dates": ["Feb 2020 - Ago 2020"]
         }
     ],
@@ -114,15 +118,54 @@
                     "name": "Swiper"
                 }
             ],
-            "image": "/images/projects/exb.png",
+            "image": "/images/projects/exb.webp",
             "url": "https://www.exhibify.net",
+            "github": ""
+        },
+        {
+            "icon": "box-select",
+            "title": "ITGallery App",
+            "subtitle": "ITGallery SLU",
+            "description": "Desarrollo y mantenimiento de app Web para la gestión de galerías de arte, artistas y coleccionistas.",
+            "skills": [
+                {
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-laravel-original",
+                    "name": "Laravel"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ],
+            "image": "/images/companies/itg.webp",
+            "url": "https://admin.itgalleryapp.com/",
             "github": ""
         },
         {
             "icon": "box-select",
             "title": "Combinacion Ganadora",
             "subtitle": "Inforalia SL",
-            "description": "Creación y desarrollo de una nueva versión de la web de Combinacion Ganadora, un portal de información sobre sorteos de lotería de distintos países. Uso de PHP 8 orientado a objetos.",
+            "description": "Creación y desarrollo de una nueva versión de la web de Combinacion Ganadora, un portal de información sobre sorteos de lotería de distintos países.",
             "skills": [
                 {
                     "icon": "devicon-php-plain",
@@ -149,7 +192,42 @@
                     "name": "Foundation"
                 }
             ],
-            "image": "/images/projects/cg.png",
+            "image": "/images/projects/cg.webp",
+            "url": "https://www.combinacionganadora.com/",
+            "github": ""
+        },
+        {
+            "icon": "box-select",
+            "title": "Redalia",
+            "subtitle": "Inforalia SL",
+            "description": "Desarrollo y mantenimiento del portal de ventas y análisis de certificados SSL.",
+            "skills": [
+                {
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-foundation-plain",
+                    "name": "Foundation"
+                }
+            ],
+            "image": "/images/projects/redalia.webp",
             "url": "https://www.combinacionganadora.com/",
             "github": ""
         }
@@ -160,24 +238,24 @@
             "title": "Universidad de Jaén",
             "subtitle": "Grado en Ingeniería Informática",
             "description": "Especialidad en Tecnologías de la Información",
-            "dates": ["2015 - 2020"],
-            "certificate": "https://www.google.com"
+            "dates": ["Sept 2015 - Jun 2020"],
+            "certificate": ""
         },
         {
             "icon": "graduation-cap",
             "title": "Grupa Uczelni Vistula",
             "subtitle": "Engineer's degree, Computer Science",
             "description": "Beca Erasmus+",
-            "dates": ["2018 - 2019"],
-            "certificate": "https://www.google.com"
+            "dates": ["Sept 2018 - Jun 2019"],
+            "certificate": ""
         },
         {
             "icon": "graduation-cap",
             "title": "Universidad de Huelva",
             "subtitle": "Grado en Ingeniería Informática",
             "description": "Beca de movilidad SICUE",
-            "dates": ["2017 - 2018"],
-            "certificate": "https://www.google.com"
+            "dates": ["Sept 2017 - Jun 2018"],
+            "certificate": ""
         }
     ],
     "extras": [

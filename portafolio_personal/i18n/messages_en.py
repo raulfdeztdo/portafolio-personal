@@ -4,7 +4,7 @@ MESSAGES = {
     "banner_msg_2": "I am Raúl Fernández",
     "banner_msg_3": "Software Developer 🚀",
     # Portafolio Page
-    "page_title": "Personal Portfolio",
+    "page_title": "Raúl Fdez - Software Developer",
     # About
     "about_title": "About me",
     # Skills
