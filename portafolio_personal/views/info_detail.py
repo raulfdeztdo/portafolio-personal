@@ -17,7 +17,8 @@ def info_detail(info: Info) -> rx.Component:
                             height=IMAGE_HEIGHT_LOGO_MOBILE,
                             aspect_ratio="1",
                             object_fit="contain",
-                            class_name="shadow-xl rounded-xl"
+                            class_name="shadow-xl rounded-xl",
+                            alt=info.title
                         )
                     ),
                     rx.cond(
@@ -114,7 +115,8 @@ def info_detail(info: Info) -> rx.Component:
                         height=IMAGE_HEIGHT_LOGO_DESKTOP,
                         aspect_ratio="1",
                         object_fit="contain",
-                        class_name="shadow-xl rounded-xl"
+                        class_name="shadow-xl rounded-xl",
+                        alt=info.title
                     )
                 ),
                 rx.cond(

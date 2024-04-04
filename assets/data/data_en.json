@@ -1,5 +1,5 @@
 {
-    "avatar": "/images/logo.png",
+    "avatar": "/images/logo.webp",
     "name": "Raúl Fernández Tirado",
     "job_position": "Full Stack Developer",
     "location": "Santiago de Compostela, Spain",
@@ -260,7 +260,7 @@
     ],
     "extras": [
         {
-            "image": "/images/logo.png",
+            "image": "/images/logo.webp",
             "title": "Title",
             "description": "Lorems ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "url": "https://www.google.com"

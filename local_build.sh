@@ -1,18 +1,19 @@
-# Install dependencies
+# Instala las dependencias
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Install npm dependencies and build Tailwind CSS
+# Instala las dependencias de npm y construye Tailwind CSS
 npm install
+npm install -g postcss-cli
 npm run build
 
-# Clear existing build artifacts if needed
+# Elimina los artefactos de construcción existentes si es necesario
 rm -rf public
 
-# Reflex build process
+# Proceso de construcción de Reflex
 reflex init
 reflex export --frontend-only
 
-# Unzip frontend build artifacts
+# Descomprime los artefactos de construcción del frontend
 unzip frontend.zip -d public
 rm -f frontend.zip
