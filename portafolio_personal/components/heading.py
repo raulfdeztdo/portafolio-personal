@@ -7,7 +7,7 @@ def heading(text: str, h1=False) -> rx.Component:
         rx.tablet_and_desktop(
             rx.heading(
                 text,
-                as_="h1" if h1 else "h2",
+                as_="h2",
                 size=Size.LARGE.value if h1 else Size.MEDIUM.value,
                 font_family="Rubik",
             )
@@ -15,7 +15,7 @@ def heading(text: str, h1=False) -> rx.Component:
         rx.mobile_only(
             rx.heading(
                 text,
-                as_="h1" if h1 else "h2",
+                as_="h2",
                 size=Size.MEDIUM.value if h1 else Size.SMALL.value,
                 font_family="Rubik",
             )

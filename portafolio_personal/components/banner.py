@@ -4,10 +4,11 @@ from portafolio_personal.translations import get_translation
 
 def banner(lang) -> rx.Component:
     return rx.vstack(
-        rx.text(
+        rx.heading(
             "",
             id="typed-text",
             class_name="font-extrabold text-center text-base md:text-xl md:text-2xl text-slate-600 dark:text-slate-300 noto-sans-mono",
+            _as="h1"
         ),
         rx.script(
             """

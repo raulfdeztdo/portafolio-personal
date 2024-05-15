@@ -44,7 +44,10 @@ def index(lang='es') -> rx.Component:
 
 app = rx.App(
     stylesheets=STYLESHEETS,
-    style=BASE_STYLE
+    style=BASE_STYLE,
+    theme= rx.theme(
+        accent_color="indigo"
+    )
 )
 
 app.add_page(index("es"), route="/", title=get_translation("page_title", "es"))
