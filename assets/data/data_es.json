@@ -59,11 +59,19 @@
     "experience": [
         {
             "icon": "box-select",
+            "title": "Emais Grupo",
+            "subtitle": "Desarrollador Backend (En remoto)",
+            "description": "Desarrollo con PHP y Symfony de proyectos internos de la empresa. Uso de docker, git y jira para el trabajo en equipo y gestión de proyectos",
+            "image": "/images/companies/emais.webp",
+            "dates": ["May 2024 - Actualidad"]
+        },
+        {
+            "icon": "box-select",
             "title": "ITGallery SLU",
             "subtitle": "Desarrollador Full Stack (En remoto)",
             "description": "Experiencia en el desarrollo y mantenimiento de proyectos web en PHP, creación de APIs con Laravel, personalización de plantillas en Shopify mediante Liquid y desarrollo de scripts en Python. Destacada integración de múltiples APIs de terceros. Uso profesional de Bitbucket y Docker para trabajo remoto, colaboración en equipos ágiles bajo metodología SCRUM y gestión de proyectos con Jira",
             "image": "/images/companies/itg.webp",
-            "dates": ["Ago 2022 - Actualidad"]
+            "dates": ["Ago 2022 - May 2024"]
         },
         {
             "icon": "box-select",
