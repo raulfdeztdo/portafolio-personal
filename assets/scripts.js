@@ -1,13 +1,10 @@
+var path = window.location.pathname;
+var htmlTag = document.documentElement;
 
-window.onload = function() {
-    var path = window.location.pathname;
-    var htmlTag = document.documentElement;
-
-    if (path === "/") {
-        htmlTag.lang = "es";
-    } else if (path === "/en") {
-        htmlTag.lang = "en";
-    }
+if (path.startsWith("/en")) {
+    htmlTag.lang = "en";
+} else {
+    htmlTag.lang = "es";
 }
 
 // Obtenemos los botones de cambio de idioma
@@ -76,12 +73,23 @@ function initializeDarkMode() {
 
 document.head.innerHTML += `
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon//favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon//site.webmanifest">
-    <link rel="mask-icon" href="/images/favicon//safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/images/favicon/apple-touch-icon.png" color="#5bbad5">
+    <link rel="canonical" href="https://raulfdez.dev">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#000000">
+    <meta property=”og:title” content=”Portfolio RFT”/
+    <meta property=”og:description” content=”Portfolio personal de Raúl Fernández, desarrollador de software”/>
+    <meta property=”og:url” content=”https://raulfdez.dev” />
+    <meta property=”og:image” content=”https://raulfdez.dev/images/logo.png” />
+    <meta property=»og:site_name» content=»Marketing de Contenidos Para Todos» />
+    <meta name=”twitter:card” content=”Porfolio" />
+    <meta name=”twitter:creator” content=”@raulfdeztdo” />
+    <meta name=”twitter:title” content=”Porfolio RFT” />
+    <meta name=”twitter:description content=”Portfolio personal de Raúl Fernández, desarrollador de software” />
+    <meta name=”twitter:url content=”https://raulfdez.dev” />
 `;
 
 initializeDarkMode();

@@ -7,9 +7,10 @@ from portafolio_personal.styles.styles import Size
 
 def  header(data: Data) -> rx.Component:
     return rx.flex(
-        rx.avatar(
+        rx.image(
             src=data.avatar,
-            size=Size.EXTRALARGE.value
+            class_name="shadow-xl rounded-xl w-40 h-40",
+            alt="Logo R"
         ),
         rx.vstack(
             heading(data.name, h1=True),
