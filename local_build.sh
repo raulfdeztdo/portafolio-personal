@@ -1,3 +1,7 @@
+# Crea y activa un entorno virtual
+python3 -m venv .venv
+source .venv/bin/activate
+
 # Instala las dependencias
 pip install --upgrade pip
 pip install -r requirements.txt
