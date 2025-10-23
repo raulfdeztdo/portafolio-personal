@@ -7,11 +7,17 @@
 **Visita la nueva versión del portafolio:**
 
 🌐 **[raulfdez.dev](https://raulfdez.dev)**
-📂 **[Nuevo Repositorio - New Repository](https://github.com/raulfdeztdo/raulfdez.dev)**
+📂 **[Nuevo Repositorio](https://github.com/raulfdeztdo/raulfdez.dev)**
+
+## 🌐 Demo en Vivo
+
+> **⚠️ ADVERTENCIA**: El demo en vivo presenta problemas con el modo oscuro/claro debido a incompatibilidades tras actualizar Reflex, Python y TailwindCSS. Al ser un proyecto deprecado, estos problemas no han sido corregidos.
+
+🔗 **[Ver Demo - View Demo](https://portfoliorft.netlify.app/)**
 
 ---
 
-# 💼 Portafolio Personal - Raúl Fernández Tirado
+# 💼 Portafolio Personal
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Reflex](https://img.shields.io/badge/Reflex-0.6.8-5A67D8?style=for-the-badge&logo=reflex&logoColor=white)](https://reflex.dev)
@@ -22,19 +28,18 @@
 
 Antigua versión de mi portafolio personal moderno y responsivo desarrollado con **Reflex** (Python) y **TailwindCSS**. Incluye soporte multidioma (Español/Inglés) y modo oscuro/claro.
 
+## 📸 Capturas de Pantalla
 
-## 📸 Capturas de Pantalla - Screenshots
-
-### 🖥️ Vista de Escritorio - Desktop View
+### 🖥️ Vista de Escritorio
 ![Desktop View](assets/images/readme/desktop.png)
 
-### 📱 Vista Móvil - Mobile View
+### 📱 Vista Móvil
 ![Mobile View](assets/images/readme/mobile.png)
 
-### 🌍 Versión en Inglés - English Version
+### 🌍 Versión en Inglés
 ![English Version](assets/images/readme/english.png)
 
-## ✨ Características - Features
+## ✨ Características
 
 - 🎨 **Diseño Moderno**: Interfaz limpia y profesional
 - 📱 **Totalmente Responsivo**: Optimizado para todos los dispositivos
@@ -44,7 +49,7 @@ Antigua versión de mi portafolio personal moderno y responsivo desarrollado con
 - 🎯 **SEO Optimizado**: Meta tags y estructura semántica
 - 🔧 **Fácil Personalización**: Código modular y bien documentado
 
-## 🛠️ Tecnologías Utilizadas - Technologies Used
+## 🛠️ Tecnologías Utilizadas
 
 ### Backend
 - **Reflex 0.6.8** - Framework web moderno para Python
@@ -61,47 +66,47 @@ Antigua versión de mi portafolio personal moderno y responsivo desarrollado con
 - **Netlify** - Despliegue y hosting
 - **Git** - Control de versiones
 
-## 🚀 Instalación y Uso - Installation and Usage
+## 🚀 Instalación y Uso
 
 ### Prerrequisitos - Prerequisites
 - Python 3.8 o superior
 - Node.js y npm (para dependencias de frontend)
 
-### Instalación - Installation
+### Instalación
 
-1. **Clonar el repositorio - Clone the repository**
+1. **Clonar el repositorio**
 ```bash
 git clone https://github.com/tu-usuario/portafolio-personal.git
 cd portafolio-personal
 ```
 
-2. **Crear entorno virtual - Create virtual environment**
+2. **Crear entorno virtual**
 ```bash
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
 
-3. **Instalar dependencias de Python - Install Python dependencies**
+3. **Instalar dependencias de Python**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Instalar dependencias de Node.js - Install Node.js dependencies**
+4. **Instalar dependencias de Node.js**
 ```bash
 npm install
 ```
 
-5. **Compilar estilos - Compile styles**
+5. **Compilar estilos**
 ```bash
 npm run build
 ```
 
-6. **Ejecutar en modo desarrollo - Run in development mode**
+6. **Ejecutar en modo desarrollo**
 ```bash
 reflex run
 ```
 
-### 🏗️ Build para Producción - Production Build
+### 🏗️ Build para Producción
 
 ```bash
 # Compilar estilos
@@ -114,7 +119,7 @@ reflex export --frontend-only
 ./local_build.sh
 ```
 
-## 📁 Estructura del Proyecto - Project Structure
+## 📁 Estructura del Proyecto
 
 ```
 portafolio-personal/
@@ -133,25 +138,23 @@ portafolio-personal/
 └── rxconfig.py           # Configuración de Reflex
 ```
 
-## 🎨 Personalización - Customization
+## 🎨 Personalización
 
-### Modificar Datos Personales - Modify Personal Data
+### Modificar Datos Personales
 Edita los archivos en `assets/data/`:
 - `data_es.json` - Datos en español
 - `data_en.json` - Datos en inglés
 
-### Cambiar Estilos - Change Styles
+### Cambiar Estilos
 - **Colores y tema**: `portafolio_personal/styles/styles.py`
 - **CSS personalizado**: `assets/styles.css`
 - **Configuración Tailwind**: `tailwind.config.js`
 
-## 📄 Licencia - License
+## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
-*This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.*
-
-## 👨‍💻 Autor - Author
+## 👨‍💻 Autor
 
 **Raúl Fernández Tirado**
 - 🌐 Website: [raulfdez.dev](https://raulfdez.dev)
@@ -163,8 +166,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para
 
 <div align="center">
 
-**⭐ Si te gusta este proyecto, ¡dale una estrella! - If you like this project, give it a star! ⭐**
+**⭐ Si te gusta este proyecto, ¡dale una estrella! ⭐**
 
-**🔗 [Visita la nueva versión - Visit the new version](https://raulfdez.dev)**
+**🔗 [Visita la nueva versión](https://raulfdez.dev)**
 
 </div>
