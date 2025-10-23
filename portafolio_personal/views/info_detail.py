@@ -26,7 +26,7 @@ def info_detail(info: Info) -> rx.Component:
                         icon_badge(info.icon),
                     ),
                     rx.cond(
-                        info.dates != "",
+                        info.dates,
                         rx.flex(
                             *[
                                 rx.badge(date)
@@ -55,7 +55,7 @@ def info_detail(info: Info) -> rx.Component:
                         class_name="dark:text-slate-200 text-slate-700 text-justify"
                     ),
                     rx.cond(
-                        info.skills,
+                        len(info.skills) > 0,
                         rx.flex(
                             *[
                                 rx.badge(
@@ -131,7 +131,7 @@ def info_detail(info: Info) -> rx.Component:
                             width="100%"
                         ),
                         rx.cond(
-                            info.dates != "",
+                            info.dates,
                             rx.flex(
                                 *[
                                     rx.badge(date)
@@ -153,7 +153,7 @@ def info_detail(info: Info) -> rx.Component:
                         class_name="dark:text-slate-200 text-slate-700"
                     ),
                     rx.cond(
-                        info.skills,
+                        len(info.skills) > 0,
                         rx.flex(
                             *[
                                 rx.badge(
