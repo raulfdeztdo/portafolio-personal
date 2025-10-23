@@ -1,3 +1,4 @@
 [build]
-  command = "bash local_build.sh"
-  publish = "public"
+    environment = { PYTHON_VERSION = "3.13" }
+    command = "bash local_build.sh"
+    publish = "public"
